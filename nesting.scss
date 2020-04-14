@@ -1,0 +1,21 @@
+$wight: bold;
+$color: gray;
+
+h1{
+   font-weight: $wight;
+   text-align: center;
+}
+
+p{
+  font-size: 10px
+  color: $color;
+}
+
+h2{
+  font-weight: $wight;
+}
+
+ol{
+  font-size: 14px
+  color: $color;
+}
