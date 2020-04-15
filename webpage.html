@@ -5,26 +5,34 @@
         <link rel="stylesheet" href=<"inheritance.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-        h1 {
-          font-size: 60px;
-          font-weight: bold;
-          font-family: fantasy;
-          color: #2184f4;
-          text-align: center;
-          border: 4px solid black;
-          background-color: black; }
+        #otter-title{
+           font-size: 60px;
+           font-weight: bold;
+           font-family: fantasy;
+           color: #2184f4;
+           text-align: center;
+           border: 4px solid black;
+           background-color: black;
+         }
 
-        #chapter {
-          font-size: 20px;
-          font-weight: lighter;
-          color: #1b62bf; }
+         #chapter{
+           font-size: 20px;
+           font-weight: lighter;
+           color: #1b62bf
+         }
 
-        @media (min-width: 500px) {
-          h3::before {
-            content: "LEARN MORE ABOUT OTTERS!!"; } }
-        @media (max-width: 499px) {
-          h3::before {
-            content: "LEARN MORE!!"; } }
+         @media (min-width: 500px) {
+            #learn::before {
+                 content: "LEARN MORE ABOUT OTTERS!!";
+             }
+         }
+
+         @media (max-width: 499px) {
+            #learn::before {
+                 content: "LEARN MORE!!";
+             }
+         }
+
         %tipe {
             font-family: arial;
             font-size: 18px;
@@ -58,26 +66,24 @@
     </head>
     <body>
         <img src="photo.jpg" alt="top" width="100%">
-        <h1>OTTERS</h1>
-        <div>
-          <h3></h3>
-        </div>
+        <h1 id="otter-title">OTTERS</h1>
+        <div> <h3 id="learn"></h3> </div>
         <div>
           <ul>
-            <li id="chapter"><a href="https://matislo.github.io/project0/index.html">Index</a></li>
-            <li id="chapter"><a href="https://matislo.github.io/project0/species.html">Species</a></li>
-            <li id="chapter"><a href="https://matislo.github.io/project0/characteristics.html">Characteristics</a></li>
+            <li class="chapter"><a href="https://matislo.github.io/project0/index.html">Index</a></li>
+            <li class="chapter"><a href="https://matislo.github.io/project0/species.html">Species</a></li>
+            <li class="chapter"><a href="https://matislo.github.io/project0/characteristics.html">Characteristics</a></li>
           </ul>
         </div>
 
         <div class="european">European otter</div>
-          In the British Isles, they were common as recently as the 1950s, but became rare in many areas due to the use of chlorinated hydrocarbon pesticides, habitat loss and water pollution.
+          <p>In the British Isles, they were common as recently as the 1950s, but became rare in many areas due to the use of chlorinated hydrocarbon pesticides, habitat loss and water pollution.</p>
 
         <div class="american">North American river otter</div>
-          River otters eat a variety of fish and shellfish, as well as small land mammals and birds. They grow to one meter (3 to 4 ft) in length and weigh from five to 15 kilograms (10 to 30 lb). In some areas, this is a protected species, and some places have otter sanctuaries that help sick and injured otters to recover.
+          <p>River otters eat a variety of fish and shellfish, as well as small land mammals and birds. They grow to one meter (3 to 4 ft) in length and weigh from five to 15 kilograms (10 to 30 lb). In some areas, this is a protected species, and some places have otter sanctuaries that help sick and injured otters to recover.</p>
 
         <div class="sea">Sea otter</div>
-          Their historic range included shallow waters of the Bering Strait and Kamchatka, and as far south as Japan. Sea otters have about 26,000 to 165,000 hairs per square centimeters of skin,[14] a rich fur for which humans hunted them almost to extinction. By the time the 1911 Fur Seal Treaty gave them protection, so few sea otters remained that the fur trade had become unprofitable.
+          <p>Their historic range included shallow waters of the Bering Strait and Kamchatka, and as far south as Japan. Sea otters have about 26,000 to 165,000 hairs per square centimeters of skin,[14] a rich fur for which humans hunted them almost to extinction. By the time the 1911 Fur Seal Treaty gave them protection, so few sea otters remained that the fur trade had become unprofitable.</p>
 
         <div class="giant">Giant otter </div>
           This gregarious animal grows to a length of up to 1.8 m (5.9 ft), and is more aquatic than most other otters.
