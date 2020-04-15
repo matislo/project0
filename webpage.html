@@ -4,6 +4,37 @@
         <title>Otters</title>
         <link rel="stylesheet" href=<"inheritance.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        %tipe {
+            font-family: arial;
+            font-size: 18px;
+            font-weight: bold;
+            border: 1px solid black;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .european {
+            @extend %tipe;
+            background-color: #00ffff;
+        }
+
+        .american {
+            @extend %tipe;
+            background-color: #53ffff;
+        }
+
+        .sea {
+            @extend %tipe;
+            background-color:  #87fdfd ;
+        }
+
+        .giant{
+            @extend %tipe;
+            background-color: #b4fefe;
+        }
+
+        </style>
     </head>
     <body>
         <img src="photo.jpg" alt="top" width="100%">
