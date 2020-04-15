@@ -1,0 +1,46 @@
+$weight: bold;
+$color: gray;
+
+#saludation{
+   font-weight: $weight;
+   text-align: center;
+}
+
+p{
+  font-size: 8px;
+  color: $color;
+}
+
+#information{
+  font-weight: $weight;
+}
+
+ol{
+  font-size: 10px;
+  color: $color;
+}
+
+.top{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: fantasy;
+  text-align: center;
+  border: 4px solid #2184f4;
+  background-color: #2184f4;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+	  border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+	  background-color: #d1d9d9;
+}
