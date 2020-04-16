@@ -57,6 +57,11 @@ p {
 #information {
   font-weight: bold; }
 
+.table > div {
+  padding: 20px;
+  background-color: #b4fefe;
+  border: 2px solid gray; }
+
 ol {
   font-size: 20px;
   color: gray; }
