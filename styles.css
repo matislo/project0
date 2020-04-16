@@ -8,7 +8,7 @@
   background-color: black; }
 
 #chapter {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: lighter;
   color: #1b62bf; }
 
@@ -20,7 +20,7 @@
     content: "LEARN MORE!!"; } }
 .european, .american, .sea, .giant {
   font-family: arial;
-  font-size: 18px;
+  font-size: 21px;
   font-weight: bold;
   border: 1px solid black;
   padding: 5px;
@@ -51,7 +51,7 @@
   text-align: center; }
 
 p {
-  font-size: 14px;
+  font-size: 19px;
   color: gray; }
 
 #information {
